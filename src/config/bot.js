@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Myth is the GOAT",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -156,32 +156,32 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Robux",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Robux",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "R$",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 1,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 2,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 1,
+    workMax: 15,
 
     // Beg command random payout range.
-    begMin: 5,
+    begMin: 0,
     begMax: 50,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.15,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
@@ -421,13 +421,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "You ain't myth broski😭",
+    cooldownActive: "chill for {time} before using this command again lol.",
+    errorOccurred: "Bot probably down gng.",
     missingPermissions:
       "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+    commandDisabled: "Myth disabled this XD",
+    maintenanceMode: "The bot is surely down",
   },
 
   // =========================
