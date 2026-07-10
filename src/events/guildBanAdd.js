@@ -9,7 +9,7 @@ export default {
 
     try {
       await ban.user.send({
-        content: "You have been banned from **Just Us Games**.\n\nYou likely violated one or more of our server rules.\n\nIf you believe this was a mistake, you can appeal here:\nhttps://discord.gg/KhJDcuw848\n\nAlternatively, you may contact **myth1xaldev** if appropriate."
+        content: "You have been banned from Just Us Games. Contact myth1xaldev to appeal"
       });
 
       console.log("DM sent successfully!");
